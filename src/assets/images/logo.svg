@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="131px" height="24px" viewBox="0 0 131 24" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#263355">
+ 
+    <g id="Pricing-monthly" stroke="none" fill-rule="evenodd" font-family="HKNova-Regular, HK Nova" font-size="20" transform="translate(-102.000000, -24.000000)" fill="inherit">
+        <text id="DIGITAL-RISE">
+            <tspan x="100" y="43.1660156">DIGITAL</tspan>
+            <tspan x="180.683594" y="43.0976562" font-family="HKNova-SemiBold, HK Nova" font-weight="500"> </tspan>
+            <tspan x="186.035156" y="43" font-family="HKNova-Heavy, HK Nova" font-weight="800">RISE</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Light'),
+	url('../fonts/montserrat-0.woff') format('woff'), /* New browsers and IE9+ */
+	url('../fonts/montserrat-0.woff2') format('woff2'),  /* Latest browsers */
+	url('../fonts/montserrat-0.ttf') format('truetype'); /* OLD Safari, Android, iOS */
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap; // optional
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'),
+	url('../fonts/montserrat-1.woff') format('woff'), /* New browsers and IE9+ */
+	url('../fonts/montserrat-1.woff2') format('woff2'),  /* Latest browsers */
+	url('../fonts/montserrat-1.ttf') format('truetype'); /* OLD Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap; // optional
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat SemiBold'),
+	url('../fonts/montserrat-2.woff') format('woff'), /* New browsers and IE9+ */
+	url('../fonts/montserrat-2.woff2') format('woff2'),  /* Latest browsers */
+	url('../fonts/montserrat-2.ttf') format('truetype'); /* OLD Safari, Android, iOS */
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap; // optional
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Bold'),
+	url('../fonts/montserrat-3.woff') format('woff'), /* New browsers and IE9+ */
+	url('../fonts/montserrat-3.woff2') format('woff2'),  /* Latest browsers */
+	url('../fonts/montserrat-3.ttf') format('truetype'); /* OLD Safari, Android, iOS */
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap; // optional
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Pro';
+	src: local('Font Awesome 5 Pro Regular'),
+	url('../fonts/fa-regular-400.woff') format('woff'), /* New browsers and IE9+ */
+	url('../fonts/fa-regular-400.woff2') format('woff2'),  /* Latest browsers */
+	url('../fonts/fa-regular-400.ttf') format('truetype'); /* OLD Safari, Android, iOS */
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap; // optional
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Pro';
+	src: local('Font Awesome 5 Pro Solid'),
+	url('../fonts/fa-solid-900.woff') format('woff'), /* New browsers and IE9+ */
+	url('../fonts/fa-solid-900.woff2') format('woff2'),  /* Latest browsers */
+	url('../fonts/fa-solid-900.ttf') format('truetype'); /* OLD Safari, Android, iOS */
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap; // optional
+}
+
+$montserrat: 'Montserrat', sans-serif;
