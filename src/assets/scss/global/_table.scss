@@ -1,0 +1,164 @@
+table {
+  border: 0;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 9%;
+  @media screen and (max-width: 580px) {
+    margin-top: 5%;
+  }
+  * {
+    font-family: $montserrat;
+  }
+  @media screen and (max-width: 580px) {
+    border: 0;
+  }
+  caption {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 6px;
+    text-align: left;
+  }
+
+  thead {
+    @media screen and (max-width: 580px) {
+      display: none;
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  }
+
+  tr {
+    background-color: transparent;
+    border-bottom: 1px solid #ECECEC;
+    padding: .35em;
+    @media screen and (max-width: 580px) {
+      border-bottom: 1px solid #ECECEC;
+      display: block;
+      margin-bottom: .625em;
+    }
+  }
+
+  th,
+  td {
+    padding: 21px 0;
+    @media screen and (max-width: 580px) {
+      border: 0;
+    }
+
+  }
+  th {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: right;
+    &:first-of-type {
+      text-align: left;
+    }
+    &.small {
+      width: 100px;
+    }
+    @media screen and (max-width: 580px) {
+      border: 0;
+    }
+  }
+  td {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    &.name {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #7F7F7F;
+    }
+    &.total {
+      font-weight: bold;
+    }
+    &.value {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #7F7F7F;
+      text-align: right;
+      &.total {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    @media screen and (max-width: 580px) {
+      border-bottom: 1px solid #ECECEC;
+      display: block;
+      text-align: right;
+      &:before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #333333;
+      }
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+
+.facture-table-price {
+  max-width: 215px;
+  width: 100%;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 50px;
+  td, th, tr {
+    border: none;
+    @media screen and (max-width: 580px) {
+      border: none;
+    }
+  }
+  th,
+  td {
+    text-align: right;
+    padding: 8px 0;
+  }
+  tr {
+    @media screen and (max-width: 580px) {
+      display: table-row;
+      vertical-align: inherit;
+    }
+  }
+  td {
+    @media screen and (max-width: 580px) {
+      display: table-cell;
+      vertical-align: inherit;
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+
+

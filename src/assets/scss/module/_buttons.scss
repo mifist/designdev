@@ -1,0 +1,22 @@
+.button {
+  display: block;
+  max-width: max-content;
+  padding: 10px 15px;
+  min-height: 40px;
+  border: 1px solid $blue;
+  background: $blue;
+  color: $white;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  filter: brightness(1);
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    filter: brightness(.9);
+  }
+}

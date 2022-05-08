@@ -1,0 +1,80 @@
+@@include('./_includes/global/_head.html')
+<main>
+	@@include('./_includes/global/_header.html')
+
+	<div class="tabs-list">
+		<div class="container">
+			<div class="tabs-list__nav">
+				<ul>
+					<li class="tabs-list__nav-item active-tab">
+						<a href="#" data-id="all">Tous les ressources <span class="amount">(35)</span></a>
+					</li>
+					<li class="tabs-list__nav-item">
+						<a href="#" data-id="development">Développement personnel <span class="amount">(9)</span></a>
+					</li>
+					<li class="tabs-list__nav-item">
+						<a href="#" data-id="ux_design">UX & Design <span class="amount">(2)</span></a>
+					</li>
+					<li class="tabs-list__nav-item">
+						<a href="#" data-id="photo">Photographie <span class="amount">(5)</span></a>
+					</li>
+					<li class="tabs-list__nav-item">
+						<a href="#" data-id="immobilier">Immobilier <span class="amount">(0)</span></a>
+					</li>
+					<li class="tabs-list__nav-item">
+						<a href="#" data-id="marketing">Marketing <span class="amount">(3)</span></a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="tabs-list__body">
+				<div data-id="all" class="tabs-list__content active-tab">
+					<div class="tab-content-container">
+
+						@@include('./_includes/parts/_tab-card__simple.html')
+
+					</div>
+					<a href="#" class="button bordered-button load-more">AFFICHER PLUS</a>
+
+				</div>
+				<div data-id="development" class="tabs-list__content">
+					<div class="tab-content-container">
+						@@include('./_includes/parts/_tab-card__simple.html')
+					</div>
+					<a href="#" class="button bordered-button load-more">AFFICHER PLUS</a>
+				</div>
+				<div data-id="ux_design" class="tabs-list__content">
+					<div class="tab-content-container">
+						@@include('./_includes/parts/_tab-card__simple.html')
+					</div>
+					<a href="#" class="button bordered-button load-more">AFFICHER PLUS</a>
+				</div>
+				<div data-id="photo" class="tabs-list__content">
+					<div class="tab-content-container">
+						@@include('./_includes/parts/_tab-card__simple.html')
+					</div>
+					<a href="#" class="button bordered-button load-more">AFFICHER PLUS</a>
+				</div>
+				<div data-id="immobilier" class="tabs-list__content">
+					<div class="tab-content-container">
+						@@include('./_includes/parts/_tab-card__simple.html')
+					</div>
+					<a href="#" class="button bordered-button load-more">AFFICHER PLUS</a>
+				</div>
+				<div data-id="marketing" class="tabs-list__content">
+					<div class="tab-content-container">
+						@@include('./_includes/parts/_tab-card__simple.html')
+					</div>
+					<a href="#" class="button bordered-button load-more">AFFICHER PLUS</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+</main>
+@@include('./_includes/global/_footer.html')

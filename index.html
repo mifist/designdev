@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SmartUp Starter page</title>
+
+	<!--load main custom styles -->
+	<link rel="stylesheet" href="dist/assets/css/main.css">
+
+	<style>
+		.index-menu {
+			display: block;
+			margin: 5%;
+			list-style: none;
+			border-radius: 7px;
+			background: #fff;
+			box-shadow: 0 0 8px rgba(214, 214, 214, 0.78);
+			padding: 0 20px;
+			min-width: max-content;
+			max-width: max-content;
+		}
+		.index-menu > li {
+			padding: 0;
+			line-height: 1;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			border-bottom: 1px solid rgba(215, 215, 215, 0.17);
+		}
+		.index-menu li a,
+		.index-menu li > span {
+			font-size: 18px;
+			line-height: 1.4;
+			padding: 15px 25px 16px 10px;
+			text-decoration: none;
+			color: #111111;
+			transition: all .2s ease-out;
+			display: block;
+		}
+		.index-menu li > span {
+			width: 100%;
+			color: #a6a6a6;
+		}
+		.index-menu li.sub {
+			display: flex;
+			align-items: center;
+		}
+		.index-menu li .sub-menu-label {
+			width: 100%;
+		}
+		.index-menu li .tag-label {
+			padding: 5px 10px;
+			font-size: 16px;
+			color: #0076df;
+		}
+		.index-menu li a:hover {
+			color: #0076DF;
+		}
+	</style>
+
+</head>
+<body>
+
+<!-- Preloader START -->
+<div id="preloaderGroup" class="preloader-group">
+	<div class="main-loader">
+		<span class="loader1"></span>
+		<span class="loader2"></span>
+		<span class="loader3"></span>
+	</div>
+</div>
+<!-- Preloader END -->
+
+<main>
+
+	 <ul class="index-menu">
+		 <li><a href="dist/home.html">Home</a> <span class="tag-label">ready for QA</span></li>
+		 <li> <a class="sub-menu-label" href="dist/home.html">List:</a>
+			 <ul>
+				 <li class="sub"><span>List item</span> <span class="tag-label">ready for QA</span></li>
+			 </ul>
+		 </li>
+	 </ul>
+
+
+</main>
+
+<!-- jQuery Core -->
+<script
+	src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<!-- Main JS -->
+<script src="dist/assets/js/main.js"></script>
+
+</body>
+</html>
