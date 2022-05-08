@@ -3,8 +3,11 @@ import whatInput from 'what-input';
 
 window.$ = $;
 
-// import FA last, to kick off the process of finding <i> tags and
-// replacing with <svg> tags, after importing all components.
-import './lib/slick.min';
+// Bootstrap 5
+import './bootstrap/bootstrap.bundle.min';
 
+// lib
+// import './lib/slick.min';
+
+// components
 import './components/custom';

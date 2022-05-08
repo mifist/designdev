@@ -1,10 +1,37 @@
 <header class="main-header">
-	<div class="container">
-		<div class="column left-side">
-			<a id="logo" href="/"><img src="assets/images/logo-big.svg" alt="SmartUp" /></a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+
+				<div class="d-flex">
+					<span class="navbar-text">
+		        Navbar text with an inline element
+		      </span>
+				</div>
+
+			</div>
+			<div class="navbar-rigth-part">
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 		</div>
-		<div class="column right-side">
-			<a href="/" class="button header-button">Se connecter</a>
-		</div>
-	</div>
+	</nav>
 </header>

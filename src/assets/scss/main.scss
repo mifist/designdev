@@ -1,6 +1,13 @@
+// components  Bootstrap 5
+@import "bootstrap/bootstrap.min";
+@import "bootstrap/bootstrap-grid.min";
+@import "bootstrap/bootstrap-reboot.min";
+@import "bootstrap/bootstrap-utilities.min";
+@import "bootstrap/bootstrap-utilities.rtl.min";
+
 // components
-@import "components/slick";
-@import "components/slick-theme";
+//@import "components/slick";
+//@import "components/slick-theme";
 
 // global
 @import "global/fonts";
